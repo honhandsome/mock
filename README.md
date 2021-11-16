@@ -45,8 +45,8 @@ allprojects {
 
 ```
 dependencies {
-    debugImplementation 'com.github.honhandsome.mock-http:mock-http:+'
-    releaseImplementation 'com.github.honhandsome.mock-http:mock-http-release:+'
+    debugImplementation 'com.tyjh.lightchain.mock:mockhttp:+'
+    releaseImplementation 'com.tyjh.lightchain.mock:mockhttp-no-op:+'
 }
 ```
 
