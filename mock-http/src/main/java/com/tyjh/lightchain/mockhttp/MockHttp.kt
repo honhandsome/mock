@@ -1,4 +1,4 @@
-package me.wcy.mockhttp
+package com.tyjh.lightchain.mockhttp
 
 import android.annotation.SuppressLint
 import android.content.Context
@@ -66,7 +66,7 @@ class MockHttp private constructor() {
         }
 
         context = ctx.applicationContext
-        mockPreference = context!!.getSharedPreferences(context!!.packageName + ".com.github.wangchenyan.mock-http", Context.MODE_PRIVATE)
+        mockPreference = context!!.getSharedPreferences(context!!.packageName + "_mock-http", Context.MODE_PRIVATE)
         httpEntityMap = mutableMapOf()
         mockHttpServer = MockHttpServer()
         mockHttpServer?.startServer(context!!)

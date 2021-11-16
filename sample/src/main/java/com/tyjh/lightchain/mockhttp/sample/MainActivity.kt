@@ -1,4 +1,4 @@
-package me.wcy.mockhttp.sample
+package com.tyjh.lightchain.mockhttp.sample
 
 import android.os.Bundle
 import android.util.Log
@@ -6,9 +6,9 @@ import android.view.View
 import android.widget.ScrollView
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
-import me.wcy.mockhttp.MockHttp
-import me.wcy.mockhttp.MockHttpInterceptor
-import me.wcy.mockhttp.MockHttpOptions
+import com.tyjh.lightchain.mockhttp.MockHttp
+import com.tyjh.lightchain.mockhttp.MockHttpInterceptor
+import com.tyjh.lightchain.mockhttp.MockHttpOptions
 import okhttp3.OkHttpClient
 import okhttp3.Request
 import org.json.JSONArray
