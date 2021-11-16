@@ -11,9 +11,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.tyjh.lightchain.mock'
+                groupId = 'com.github.honhandsome.mock'
                 artifactId = 'mockhttp-no-op'
-                version = '1.0.1'
+                version = '1.0.0'
             }
 //            // Creates a Maven publication called “debug”.
 //            debug(MavenPublication) {
