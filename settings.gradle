@@ -1,3 +1,4 @@
 include ':mock-http'
 include ':mock-http-release'
 include ':sample'
+rootProject.name = "mock"
