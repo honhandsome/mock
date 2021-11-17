@@ -13,7 +13,10 @@ afterEvaluate {
                 // You can then customize attributes of the publication as shown below.
                 groupId = 'com.github.honhandsome.mock'
                 artifactId = 'mockhttp'
-                version = '1.0.0'
+                // version = '1.0.0'
+
+                // Upload kotlin source code
+                artifact sourceJar
             }
 //            // Creates a Maven publication called “debug”.
 //            debug(MavenPublication) {
@@ -26,6 +29,11 @@ afterEvaluate {
 //            }
         }
     }
+}
+
+task sourceJar(type: Jar) {
+    from android.sourceSets.main.java.srcDirs
+    classifier "sources"
 }
 
 android {
